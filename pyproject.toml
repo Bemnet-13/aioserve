@@ -1,0 +1,19 @@
+[project]
+name = "aioserve"
+version = "0.1.0"
+description = "A simple ASGI based web framework for exposing HTTP and MCP tools"
+authors = [
+    {name = "Bemnet Aschalew",email = "bemnetaschalewwodaj@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "uvicorn (>=0.35.0,<0.36.0)",
+    "starlette (>=0.47.3,<0.48.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
